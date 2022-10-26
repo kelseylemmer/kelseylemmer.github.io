@@ -19,8 +19,7 @@ body {
   background: white;
 }
 
-
-.leftcolumn { 
+.leftcolumn {
   float: left;
   width: 25%;
 }
@@ -57,7 +56,8 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn { 
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
