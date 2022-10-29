@@ -19,7 +19,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #000000;
+  color: blue;
 }
 
 /* mouse over link */
@@ -61,8 +61,6 @@ a:active {
   padding: 20px;
   margin-top: 20px;
 }
-
-
 
 .row:after {
   content: "";
