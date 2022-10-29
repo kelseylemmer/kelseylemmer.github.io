@@ -12,6 +12,26 @@ body {
   text-transform: uppercase;
 }
 
+/* unvisited link */
+a:link {
+  color: #000000;
+}
+
+/* visited link */
+a:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(105, 255, 235);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 .header {
   padding: 30px;
   font-size: 40px;
@@ -41,6 +61,8 @@ body {
   padding: 20px;
   margin-top: 20px;
 }
+
+
 
 .row:after {
   content: "";
