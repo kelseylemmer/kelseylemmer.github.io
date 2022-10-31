@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial;
-  color: rbb(0,0,0);
+  color: rgb(0,0,0);
   padding: 20px;
 }
 
@@ -14,7 +14,7 @@ body {
 
 .exp-header {
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: rgba(246, 238, 54, 255);
 }
 
 div.a {
@@ -23,12 +23,12 @@ div.a {
 
 /* unvisited link */
 a:link {
-  color: #000000;
+  color: rgb(0, 0, 255));
 }
 
 /* visited link */
 a:visited {
-  color: rgba(80, 78, 80, 225);
+  color: rgb(0, 0, 255);
 }
 
 /* mouse over link */
@@ -38,7 +38,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: rgba(80, 78, 80, 225);
+  color: rgb(0,0,255);
 }
 
 .header {
