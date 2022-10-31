@@ -1,105 +1,93 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="style.css"/>
-	<script src="https://kit.fontawesome.com/6992497690.js" crossorigin="anonymous"></script>  
-  <title>Kelsey Lemmer Resume</title>
-</head>
-<body>
+* {
+  box-sizing: border-box;
+}
 
-<div class="header">
-  <h2>Kelsey Lemmer</h2>
-</div>
+body {
+  font-family: Arial;
+  color: rbb(0,0,0);
+  padding: 20px;
+}
 
-<div class="row">
-  <div class="leftcolumn">
-    
-    <div class="card">
-      <div class="exp-header">
-        <h2> About Me </h2>
-      </div>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-    </div>
-    
-    <div class="card">
-      <div class="exp-header">
-        <h2> Contact </h2>
-      </div>
-      
-      <p><ul class="fa-ul">
-    <li><span class="fa-li"><i class="fa-solid fa-phone"></i></span>952.426.8828</li>
-    <li><span class="fa-li"><i class="fa-solid fa-envelope"></i></span>kelseylemmer@gmail.com</li>
-    <li><a href="https://www.linkedin.com/in/kelsey-lemmer/"><span class="fa-li"><i class="fa-brands fa-linkedin"></i></a></span>www.linkedin.com/in/kelsey-lemmer</li>
-    <li><a href="https://www.linkedin.com/in/kelsey-lemmer/"><span class="fa-li"><i class="fa-brands fa-github"></i></a></span>https://github.com/kelseylemmer</li>
-  </ul>
-      </p>
-    </div>
-    
-    <div class="card">
-      <div class="exp-header">
-        <h2>Skills</h2>
-      </div>
-      <ul>
-        <li> skill </li>
-        <li> skill </li>
-      </ul>
-    </div>
-    
-    <div class="card">
-      <div class="exp-header">
-        <h2>Interests</h2>
-      </div>
-      <p>Some text..</p>
-    </div>
-    
-  </div>
-  
-  
-  <div class="rightcolumn">
-    
-    <div class="card">
-      <div class="exp-header">
-        <h2>Work Experience</h2>
-      </div>
-      <div>
-        <h4>Company</h4>
-        <h5>title</h5>
-        <h6>date</h6>
-        <ul>
-          <li>duty/accomplishment</li>
-          <li>duty/accomplishemnt</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Company</h4>
-        <h5>title</h5>
-        <h6>date</h6>
-        <ul>
-          <li>duty/accomplishment</li>
-          <li>duty/accomplishemnt</li>
-        </ul>
-      </div> 
-    </div> 
-    
-    <div class="card">
-      <div class="exp-header">
-        <h2>Education</h2>
-      </div>
-      <div>
-        <h4>Bachelors Degree - Political Science </h4>
-        <h5>University of Minnesota, Minneapolis- Completed 2014</h5>
-      </div> 
-      
-    </div>
-    
-  </div> 
-</div>   
+.header {
+  color: rgba(246, 238, 54, 255);
+}
 
-<div class="footer">
-  <h2>Footer</h2>
-</div> 
-</body>
-</html>
+.exp-header {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+div.a {
+  line-height: 25%;
+}
+
+/* unvisited link */
+a:link {
+  color: #000000;
+}
+
+/* visited link */
+a:visited {
+  color: rgba(80, 78, 80, 225);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgba(246, 238, 54, 255);
+}
+
+/* selected link */
+a:active {
+  color: rgba(80, 78, 80, 225);
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: rgba(168, 182, 206, 255);
+}
+
+.leftcolumn {
+  float: left;
+  width: 25%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 75%;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: rgba(168, 182, 206, 255);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
