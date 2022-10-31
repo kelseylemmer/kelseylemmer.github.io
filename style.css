@@ -6,7 +6,6 @@ body {
   font-family: Arial;
   color: rbb(0,0,0);
   padding: 20px;
-  background: rgba(80, 78, 80, 225);
 }
 
 .header {
@@ -16,6 +15,10 @@ body {
 .exp-header {
   text-transform: uppercase;
   color: rgb(0, 0, 0);
+}
+
+div.a {
+  line-height: 25%;
 }
 
 /* unvisited link */
