@@ -25,7 +25,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: rgba(246, 238, 54, 255);
+  color: rgba(80, 78, 80, 225);
 }
 
 /* mouse over link */
@@ -35,7 +35,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: rgba(246, 238, 54, 255);
+  color: rgba(80, 78, 80, 225);
 }
 
 .header {
