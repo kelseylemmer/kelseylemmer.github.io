@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial;
-  color: rgb(0,0,0);
+  color: rgba(80, 78, 80, 225);
   padding: 20px;
 }
 
@@ -23,7 +23,7 @@ div.a {
 
 /* unvisited link */
 a:link {
-  color: rgb(0, 0, 255));
+  color: rgb(0, 0, 255);
 }
 
 /* visited link */
