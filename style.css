@@ -1,85 +1,83 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial;
-    padding: 20px;
-    background: #9e6f4d;
-  }
-  
-  .header {
-    padding: 30px;
-    font-size: 40px;
-    text-align: center;
-    background: #ff5208;
-  }
-  
-  
-  .leftcolumn {
-    float: left;
-    width: 25%;
-  }
-  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #9e6f4d;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #ff5208;
+}
+
+.leftcolumn {
+  float: left;
+  width: 25%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 75%;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: #013ec9;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row {
+  overflow: hidden;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.exp-header {
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* unvisited link */
+a:link {
+  color: #ff5208;
+}
+
+/* visited link */
+a:visited {
+  color: #ff5208;
+}
+
+/* mouse over link */
+a:hover {
+  color: #9e6f4d;
+}
+
+/* selected link */
+a:active {
+  color: #ff5208;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
   .rightcolumn {
-    float: left;
-    width: 75%;
-    padding-left: 20px;
-  }
-  
-  .fakeimg {
-    background-color: #aaa;
     width: 100%;
-    padding: 20px;
+    padding: 0;
   }
-  
-  .card {
-    background-color: #013ec9;
-    padding: 20px;
-    margin-top: 20px;
-  }
-
-  .row { 
-    overflow: hidden; 
-  }
-  
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
-  
-   .exp-header {
-    text-transform: uppercase;
-    color: #000000;
-  }
-  
-  /* unvisited link */
-  a:link {
-    color: #ff5208;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #ff5208;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #9e6f4d;
-  }
-  
-  /* selected link */
-  a:active {
-    color: #ff5208;
-  }
-
-  @media screen and (max-width: 800px) {
-    .leftcolumn,
-    .rightcolumn {
-      width: 100%;
-      padding: 0;
-    }
-  }
-  
+}
