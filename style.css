@@ -17,10 +17,6 @@ body {
   color: rgba(246, 238, 54, 255);
 }
 
-div.a {
-  line-height: 50%;
-}
-
 /* unvisited link */
 a:link {
   color: rgb(0, 0, 255);
