@@ -1,89 +1,85 @@
 * {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  color: rgba(80, 78, 80, 225);
-  padding: 20px;
-}
-
-.header {
-  color: rgba(246, 238, 54, 255);
-}
-
-.exp-header {
-  text-transform: uppercase;
-  color: rgba(246, 238, 54, 255);
-}
-
-/* unvisited link */
-a:link {
-  color: rgb(0, 0, 255);
-}
-
-/* visited link */
-a:visited {
-  color: rgb(0, 0, 255);
-}
-
-/* mouse over link */
-a:hover {
-  color: rgba(246, 238, 54, 255);
-}
-
-/* selected link */
-a:active {
-  color: rgb(0,0,255);
-}
-
-.header {
-  padding: 30px;
-  font-size: 40px;
-  text-align: center;
-  background: rgba(168, 182, 206, 255);
-}
-
-.leftcolumn {
-  float: left;
-  width: 25%;
-}
-
-.rightcolumn {
-  float: left;
-  width: 75%;
-  padding-left: 20px;
-}
-
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-.card {
-  background-color: rgba(168, 182, 206, 255);
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-@media screen and (max-width: 800px) {
-  .leftcolumn,
-  .rightcolumn {
-    width: 100%;
-    padding: 0;
+    box-sizing: border-box;
   }
-}
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #9e6f4d;
+  }
+  
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #ff5208;
+  }
+  
+  
+  .leftcolumn {
+    float: left;
+    width: 25%;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 75%;
+    padding-left: 20px;
+  }
+  
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #013ec9;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .row { 
+    overflow: hidden; 
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+   .exp-header {
+    text-transform: uppercase;
+    color: #000000;
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: #ff5208;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #ff5208;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #9e6f4d;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #ff5208;
+  }
+
+  @media screen and (max-width: 800px) {
+    .leftcolumn,
+    .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
