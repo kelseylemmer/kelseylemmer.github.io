@@ -49,6 +49,21 @@ body {
   margin-top: 20px;
 }
 
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .exp-header {
   text-transform: uppercase;
   color: #000000;
