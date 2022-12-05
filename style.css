@@ -73,12 +73,12 @@ h6 {
 
 /* unvisited link */
 a:link {
-  color: #9e6f4d;
+  color: #ff5208;;
 }
 
 /* visited link */
 a:visited {
-  color: #ff5208;
+  color: #9e6f4d;
 }
 
 /* mouse over link */
